@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Main from "./Main";
 import "./index.css";
-import { Page, Text, View, Document, StyleSheet, PDFViewer, pdf } from '@react-pdf/renderer';
+
 
 // Create styles
 const styles = StyleSheet.create({
