@@ -5,19 +5,23 @@ class Docs extends Component {
     return (
       <div>
         <h2>Documentation:</h2>
-        <p>Google Maps integration using ReactJS</p>
+        <p>How to use:</p>
         <ol>
-          <li>Location: Yonge-Dundas Square, Toronto</li>
-          <li>Date: 27th January 2020</li>
-          <li>Hours:6 PM - 10 PM</li>
-          <li>Artists: Deadmau5, Above and Beyond, Tïesto </li>
-          <li>Accomodates: Approx 20K people</li>
-          <li>Bar: Budweiser, Corona, Stella Artois and Heineken available</li>
-          <li>Access types: GA, Staff, VIP, VVIP </li>
-          <li>Number of entraces:2</li>
-          <li>Number of Exits: 2</li>
-          <li>Number of lanes:10</li>
-          <li>Zones: Backstage, Stage, VVIP zone, VIP zone and GA zone</li>
+          <li>Download the code from <a href="https://github.com/deepakggn/react-googlemaps/tree/development"> Github </a></li>
+          <li>Install npm and NodeJS </li>
+          <li>npm start</li>
+          <li>open http://localhost:3000</li>
+        </ol>
+        <p>Features: </p>
+        <ol>
+          <li>Single page application implementation using ReactJS.</li>
+          <li>Google maps integrated using Google maps cloud API. </li>
+          <li>Maps are customized using snazzymaps: helps with changing the map styles/colors.</li>
+          <li>Default map pointers are changed to pin icons.</li>
+          <li>Map data is pulled from a centralized jso file.</li>
+          <li>OnClick events: Info box is added to every map pointer for pointer description.</li>
+          <li>Routing: React routing is used to navigate through different pages of the App.</li>
+          <li>Export data: Event data can be using exported using Export to csv option. </li>
         </ol>
       </div>
     );
